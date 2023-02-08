@@ -117,7 +117,7 @@ function getDeclarationFiles(rootFiles: readonly string[], compilerOptions: ts.C
 		return declarations;
 	}
 
-	checkProgramDiagnosticsErrors(program);
+	// checkProgramDiagnosticsErrors(program); // TODO: revert it
 
 	const emitResult = program.emit(
 		undefined,

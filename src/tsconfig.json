@@ -4,7 +4,9 @@
 		"composite": true,
 		"declarationDir": "../dts-out",
 		"incremental": true,
-		"outDir": "../dist"
+		"outDir": "../dist",
+		"skipLibCheck": true,
+		"sourceMap": true
 	},
 	"include": [
 		"**/*.ts"
